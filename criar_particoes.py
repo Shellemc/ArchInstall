@@ -1,5 +1,5 @@
 from os import popen
-
+from os import system
 baner = """
 
 \033[1;92m
@@ -33,4 +33,4 @@ def criar_particao():
     for a, b, c in zip(part, nome, raiz):
         print('Criando partições, Por favor aguarde!')
         popen('clear').read()
-        popen(a, b, c).read()
+        system(a, b, c)
