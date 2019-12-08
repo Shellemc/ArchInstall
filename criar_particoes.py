@@ -33,4 +33,6 @@ def criar_particao():
     for a, b, c in zip(part, nome, raiz):
         print('Criando partições, Por favor aguarde!')
         popen('clear').read()
-        system(a, b, c)
+        system(a)
+        system(b)
+        system(c)
