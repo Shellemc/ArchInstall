@@ -5,10 +5,6 @@ import subprocess
 import os
 import sys
 
-###########################################
-"SISTEMA DE CORES"
-###########################################
-
 
 ###########################################
 "MENU PRINCIPAL DO PROGRAMA"
