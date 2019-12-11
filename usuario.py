@@ -8,7 +8,7 @@ def criar_usuario(user, pwd):
 			print('Usuario %s já existe' % user)
 			return
 		cmd = 'useradd -p %s %s 2>/dev/null' % (crypt.crypt(pwd, '22'), user)
-		output = os.popen((cmd).readline())
+		output = os.popen(cmd).readline()
 		print('Usuario %s criado com sucesso' % user)
 
 nome_usuario = input('nome do usuario: ')
